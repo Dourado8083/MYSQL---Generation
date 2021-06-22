@@ -30,6 +30,6 @@ select * from tb_prod where valorkg >= 50;
 
 select * from tb_prod where valorkg >= 3 or valorkg <=60;
 
- SELECT * FROM tb_prod WHERE nomeAni LIKE   "%c%" ;
+ SELECT * FROM tb_prod WHERE nomeAni LIKE "%c%";
 
 SELECT * FROM tb_prod p inner join tb_cate c on ( p.id_cat = c.id_cat);
