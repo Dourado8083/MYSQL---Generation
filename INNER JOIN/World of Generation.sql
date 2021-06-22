@@ -1,4 +1,3 @@
-CREATE DATABASE db_farmancia_do_bem
 use db_generation_game_online;
 
 CREATE TABLE tb_class(
@@ -37,5 +36,5 @@ SELECT * FROM tb_personagem;
 SELECT * FROM tb_class;
 
 SELECT * FROM tb_pers WHERE poder_ataque > 2000;
-
+SELECT  *  FROM tb_pers WHERE nome LIKE  " % C% " ;
 SELECT * FROM tb_pers p inner join tb_class c on ( p.id_cla = c.id_cla);
